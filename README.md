@@ -12,7 +12,7 @@ SQL grounded in your actual tables.
 
 [![Download](https://img.shields.io/github/v/release/positron-labs/db?label=Download&style=for-the-badge&color=2f81f7)](https://github.com/positron-labs/db/releases/latest)
 &nbsp;
-[![Platform](https://img.shields.io/badge/Windows-10%2F11-blue?style=for-the-badge)](https://github.com/positron-labs/db/releases/latest)
+[![Platform](https://img.shields.io/badge/Windows%20%7C%20Linux-blue?style=for-the-badge)](https://github.com/positron-labs/db/releases/latest)
 
 </div>
 
@@ -25,6 +25,33 @@ a schema-aware editor with an AI assistant that reads your database structure, s
 help you get is specific to *your* data, not generic boilerplate. Manage your
 connections, browse the schema, write queries with real completion and hover docs, run
 them against a live grid, and ask the assistant when you get stuck.
+
+## Familiar feel, built from scratch
+
+Open PositronDB and it'll feel like home: the editor, the command palette, the icons, the
+light and dark themes all take after the tools you already love, VSCode and Cursor. That's
+intentional. We're big fans of both, and we build on the same wonderful open-source
+foundation they do, the **Monaco Editor** that powers the VSCode text surface powers ours
+too.
+
+But PositronDB is **not a fork of VSCode**. It's an in-house build, and that was a
+deliberate choice we want to be open about:
+
+- **VSCode was best-in-class for its era, and eras move on.** It set the standard when it
+  arrived, and it earned every bit of its success. A general-purpose editor of that scale
+  also carries a decade of layers built for a much bigger job. Inheriting all of that would
+  mean inheriting its weight and its technical debt, and that debt only grows with time.
+- **We'd rather be small and stay focused.** PositronDB does one thing, databases, and we
+  want every part of it pointed at that. A lean app we own end to end loads faster, stays
+  simpler, and lets us make the database experience the best it can be instead of
+  re-skinning a platform built for everything.
+- **Owning the whole thing lets us go all in.** No upstream to track and no merge tax means
+  when we want the schema explorer, the AI assistant, or the editor to feel just right, we
+  simply build it.
+
+So you get the comfort and polish of the editors you already know, on a foundation we built
+deliberately for one purpose. The familiar parts are a gift from the open-source community
+we're proud to be part of; the focus is all ours.
 
 ## Features
 
@@ -83,7 +110,7 @@ them against a live grid, and ask the assistant when you get stuck.
 
 Once installed, PositronDB keeps itself up to date automatically.
 
-> **Platform:** Windows 10/11. Built on Electron.
+> **Platform:** Windows 10/11 and Linux. Built on Electron.
 
 ## Getting started
 
