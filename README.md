@@ -20,7 +20,7 @@ SQL grounded in your actual tables.
 
 ## What it is
 
-PositronDB is a desktop SQL IDE for working with MySQL/Aurora and PostgreSQL. It pairs
+PositronDB is a desktop SQL IDE for working with your relational databases. It pairs
 a schema-aware editor with an AI assistant that reads your database structure, so the
 help you get is specific to *your* data, not generic boilerplate. Manage your
 connections, browse the schema, write queries with real completion and hover docs, run
@@ -74,7 +74,7 @@ we're proud to be part of; the focus is all ours.
 - SQL formatting built in.
 
 ### 🗂️ Connections & schema explorer
-- Manage multiple connections to **MySQL/Aurora** and **PostgreSQL**.
+- Manage multiple connections across a growing range of **SQL databases**.
 - A tree explorer drills from **connections → databases → tables → columns**.
 - **Production connections are flagged**, with a destructive-statement guardrail that
   warns before you run something dangerous against prod.
