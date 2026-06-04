@@ -12,7 +12,7 @@ SQL grounded in your actual tables.
 
 [![Download](https://img.shields.io/github/v/release/positron-labs/db?label=Download&style=for-the-badge&color=2f81f7)](https://github.com/positron-labs/db/releases/latest)
 &nbsp;
-[![Platform](https://img.shields.io/badge/Windows%20%7C%20Linux-blue?style=for-the-badge)](https://github.com/positron-labs/db/releases/latest)
+[![Platform](https://img.shields.io/badge/Windows%20%7C%20macOS%20%7C%20Linux-blue?style=for-the-badge)](https://github.com/positron-labs/db/releases/latest)
 
 </div>
 
@@ -59,6 +59,8 @@ we're proud to be part of; the focus is all ours.
 - A chat assistant that **proposes SQL grounded in your live schema**: it ranks the
   tables most relevant to your question, follows foreign-key relationships, and feeds
   the model the columns that actually matter.
+- Beyond proposing SQL, the assistant can **act on the app itself**: open and manage
+  connections, design tables, change settings, edit the active editor, and read the logs.
 - Replies render as rich **markdown**, with a per-conversation **token tally** so you
   always know the cost of a thread.
 - **Insert proposed SQL** straight into the current editor or a fresh tab, one click.
@@ -82,6 +84,12 @@ we're proud to be part of; the focus is all ours.
 - A **live schema index** keeps completion and the AI assistant current as your database
   changes.
 
+### 🗃️ Workspace & files
+- Keep your `.sql` scripts in a **workspace folder on disk**: browse, create, rename,
+  delete, and **search them by name and contents** from the activity bar. Saving an
+  untitled tab files it straight into the workspace.
+- **Import** `.sql` scripts from your computer or from an existing DBeaver workspace.
+
 ### 📊 Results & history
 - Run queries against a clean, sortable **results grid**.
 - **Query history** and **saved queries** are kept across sessions, so nothing you ran
@@ -97,20 +105,41 @@ we're proud to be part of; the focus is all ours.
 ### 🎨 Polished desktop experience
 - Native **light and dark themes**.
 - Resizable, collapsible panes you can lay out the way you work.
+- **In-app notifications** keep you posted on updates, long-running tasks, and connection
+  status.
 - **Automatic updates**: PositronDB checks for new versions on launch, downloads in the
   background, and installs on restart, with release notes shown in-app.
 
 ## Download & install
 
-1. Head to the [**latest release**](https://github.com/positron-labs/db/releases/latest).
-2. Download **`PositronDB-Setup-<version>.exe`** (installer) or **`PositronDB-<version>.exe`**
-   (portable).
-3. Run it. Windows SmartScreen may warn on the unsigned installer, choose **More info →
-   Run anyway**.
+Head to the [**latest release**](https://github.com/positron-labs/db/releases/latest) and
+grab the build for your platform.
+
+### Windows
+Download **`PositronDB-Setup-<version>.exe`** (installer) or **`PositronDB-<version>.exe`**
+(portable) and run it. SmartScreen may warn on the unsigned installer, choose **More info →
+Run anyway**.
+
+### macOS (Apple Silicon)
+Download **`PositronDB-<version>-arm64.dmg`**, open it, and drag **PositronDB** into your
+Applications folder.
+
+### Linux (Ubuntu / Debian)
+Download and install the `.deb`, or add the signed apt repo so future releases land with
+`apt upgrade`:
+
+```bash
+curl -fsSL https://positron-labs.github.io/apt/positron-db-archive-keyring.gpg \
+  | sudo tee /usr/share/keyrings/positron-db-archive-keyring.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/positron-db-archive-keyring.gpg] https://positron-labs.github.io/apt stable main" \
+  | sudo tee /etc/apt/sources.list.d/positron-db.list >/dev/null
+sudo apt update && sudo apt install positron-db
+```
 
 Once installed, PositronDB keeps itself up to date automatically.
 
-> **Platform:** Windows 10/11 and Linux. Built on Electron.
+> **Platforms:** Windows 10/11, macOS (Apple Silicon), and Linux (Ubuntu/Debian). Built on
+> Electron.
 
 ## Getting started
 
