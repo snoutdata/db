@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="icon.png" alt="PositronDB" width="128" height="128" />
+<img src="icon.png" alt="SnoutData" width="128" height="128" />
 
-# PositronDB
+# SnoutData
 
 ### An AI-driven SQL IDE
 
@@ -10,9 +10,9 @@ A fast, native SQL workbench with a built-in AI assistant that understands your 
 Connect, explore, write, and run, with smart completion and an assistant that proposes
 SQL grounded in your actual tables.
 
-[![Download](https://img.shields.io/github/v/release/positron-labs/db?label=Download&style=for-the-badge&color=2f81f7)](https://github.com/positron-labs/db/releases/latest)
+[![Download](https://img.shields.io/github/v/release/snoutdata/db?label=Download&style=for-the-badge&color=2f81f7)](https://github.com/snoutdata/db/releases/latest)
 &nbsp;
-[![Platform](https://img.shields.io/badge/Windows%20%7C%20macOS%20%7C%20Linux-blue?style=for-the-badge)](https://github.com/positron-labs/db/releases/latest)
+[![Platform](https://img.shields.io/badge/Windows%20%7C%20macOS%20%7C%20Linux-blue?style=for-the-badge)](https://github.com/snoutdata/db/releases/latest)
 
 </div>
 
@@ -20,7 +20,7 @@ SQL grounded in your actual tables.
 
 ## What it is
 
-PositronDB is a desktop SQL IDE for working with your relational databases. It pairs
+SnoutData is a desktop SQL IDE for working with your relational databases. It pairs
 a schema-aware editor with an AI assistant that reads your database structure, so the
 help you get is specific to *your* data, not generic boilerplate. Manage your
 connections, browse the schema, write queries with real completion and hover docs, run
@@ -28,20 +28,20 @@ them against a live grid, and ask the assistant when you get stuck.
 
 ## Familiar feel, built from scratch
 
-Open PositronDB and it'll feel like home: the editor, the command palette, the icons, the
+Open SnoutData and it'll feel like home: the editor, the command palette, the icons, the
 light and dark themes all take after the tools you already love, VSCode and Cursor. That's
 intentional. We're big fans of both, and we build on the same wonderful open-source
 foundation they do, the **Monaco Editor** that powers the VSCode text surface powers ours
 too.
 
-But PositronDB is **not a fork of VSCode**. It's an in-house build, and that was a
+But SnoutData is **not a fork of VSCode**. It's an in-house build, and that was a
 deliberate choice we want to be open about:
 
 - **VSCode was best-in-class for its era, and eras move on.** It set the standard when it
   arrived, and it earned every bit of its success. A general-purpose editor of that scale
   also carries a decade of layers built for a much bigger job. Inheriting all of that would
   mean inheriting its weight and its technical debt, and that debt only grows with time.
-- **We'd rather be small and stay focused.** PositronDB does one thing, databases, and we
+- **We'd rather be small and stay focused.** SnoutData does one thing, databases, and we
   want every part of it pointed at that. A lean app we own end to end loads faster, stays
   simpler, and lets us make the database experience the best it can be instead of
   re-skinning a platform built for everything.
@@ -107,21 +107,21 @@ we're proud to be part of; the focus is all ours.
 - Resizable, collapsible panes you can lay out the way you work.
 - **In-app notifications** keep you posted on updates, long-running tasks, and connection
   status.
-- **Automatic updates**: PositronDB checks for new versions on launch, downloads in the
+- **Automatic updates**: SnoutData checks for new versions on launch, downloads in the
   background, and installs on restart, with release notes shown in-app.
 
 ## Download & install
 
-Head to the [**latest release**](https://github.com/positron-labs/db/releases/latest) and
+Head to the [**latest release**](https://github.com/snoutdata/db/releases/latest) and
 grab the build for your platform.
 
 ### Windows
-Download **`PositronDB-Setup-<version>.exe`** (installer) or **`PositronDB-<version>.exe`**
+Download **`SnoutData-Setup-<version>.exe`** (installer) or **`SnoutData-<version>.exe`**
 (portable) and run it. SmartScreen may warn on the unsigned installer, choose **More info →
 Run anyway**.
 
 ### macOS (Apple Silicon)
-Download **`PositronDB-<version>-arm64.dmg`**, open it, and drag **PositronDB** into your
+Download **`SnoutData-<version>-arm64.dmg`**, open it, and drag **SnoutData** into your
 Applications folder.
 
 ### Linux (Ubuntu / Debian)
@@ -129,14 +129,14 @@ Download and install the `.deb`, or add the signed apt repo so future releases l
 `apt upgrade`:
 
 ```bash
-curl -fsSL https://positron-labs.github.io/apt/positron-db-archive-keyring.gpg \
-  | sudo tee /usr/share/keyrings/positron-db-archive-keyring.gpg >/dev/null
-echo "deb [signed-by=/usr/share/keyrings/positron-db-archive-keyring.gpg] https://positron-labs.github.io/apt stable main" \
-  | sudo tee /etc/apt/sources.list.d/positron-db.list >/dev/null
-sudo apt update && sudo apt install positron-db
+curl -fsSL https://apt.snoutdata.com/snoutdata-archive-keyring.gpg \
+  | sudo tee /usr/share/keyrings/snoutdata-archive-keyring.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/snoutdata-archive-keyring.gpg] https://apt.snoutdata.com stable main" \
+  | sudo tee /etc/apt/sources.list.d/snoutdata.list >/dev/null
+sudo apt update && sudo apt install snoutdata
 ```
 
-Once installed, PositronDB keeps itself up to date automatically.
+Once installed, SnoutData keeps itself up to date automatically.
 
 > **Platforms:** Windows 10/11, macOS (Apple Silicon), and Linux (Ubuntu/Debian). Built on
 > Electron.
@@ -150,8 +150,35 @@ Once installed, PositronDB keeps itself up to date automatically.
 5. **Open the AI panel** and ask a question, the assistant answers using your schema and
    can drop the SQL right into your editor.
 
+## Screenshots
+
+<sub>Click any screenshot to view it full size.</sub>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://raw.githubusercontent.com/snoutdata/db/main/assets/screenshots/agent-build-report.png"><img src="https://raw.githubusercontent.com/snoutdata/db/main/assets/screenshots/agent-build-report.png" alt="The AI assistant building a multi-table sales report grounded in the real schema" width="100%" /></a>
+      <p><b>Ask in plain English, get schema-grounded SQL</b><br/><sub>The assistant reads your live tables, columns, and foreign keys, writes runnable SQL, and explains it. One click drops it into the editor.</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://raw.githubusercontent.com/snoutdata/db/main/assets/screenshots/agent-query-fixing.png"><img src="https://raw.githubusercontent.com/snoutdata/db/main/assets/screenshots/agent-query-fixing.png" alt="The AI assistant diagnosing and correcting a failed query" width="100%" /></a>
+      <p><b>Paste a failing query, get the fix</b><br/><sub>Hand it the error and the SQL that produced it. It diagnoses the cause against your real schema and returns corrected SQL.</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://raw.githubusercontent.com/snoutdata/db/main/assets/screenshots/table-telemetry.png"><img src="https://raw.githubusercontent.com/snoutdata/db/main/assets/screenshots/table-telemetry.png" alt="The per-table telemetry view showing storage, schema, and recent queries" width="100%" /></a>
+      <p><b>Know your tables at a glance</b><br/><sub>Per-table storage and index sizes, schema facts (keys, indexes, engine), and the queries that recently touched it.</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://raw.githubusercontent.com/snoutdata/db/main/assets/screenshots/themes.png"><img src="https://raw.githubusercontent.com/snoutdata/db/main/assets/screenshots/themes.png" alt="SnoutData in its light theme" width="100%" /></a>
+      <p><b>Light and dark</b><br/><sub>A polished light theme and a deep dark theme, both tuned for long sessions staring at results.</sub></p>
+    </td>
+  </tr>
+</table>
+
 ---
 
 <div align="center">
-<sub>PositronDB · An AI-driven SQL IDE · <a href="https://github.com/positron-labs/db/releases">Releases</a></sub>
+<sub>SnoutData · An AI-driven SQL IDE · <a href="https://github.com/snoutdata/db/releases">Releases</a></sub>
 </div>
