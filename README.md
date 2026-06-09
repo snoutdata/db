@@ -141,6 +141,8 @@ Once installed, SnoutData keeps itself up to date automatically.
 > **Platforms:** Windows 10/11, macOS (Apple Silicon), and Linux (Ubuntu/Debian). Built on
 > Electron.
 
+<br />
+
 ## Screenshots
 
 <sub>Click any screenshot to view it full size.</sub>
