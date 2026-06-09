@@ -115,6 +115,9 @@ we're proud to be part of; the focus is all ours.
 Head to the [**latest release**](https://github.com/snoutdata/db/releases/latest) and
 grab the build for your platform.
 
+**Platforms:** Windows 10/11, macOS (Apple Silicon), and Linux (Ubuntu/Debian). Built on
+Electron.
+
 ### Windows
 Download **`SnoutData-Setup-<version>.exe`** (installer) or **`SnoutData-<version>.exe`**
 (portable) and run it. SmartScreen may warn on the unsigned installer, choose **More info →
@@ -137,11 +140,6 @@ sudo apt update && sudo apt install snoutdata
 ```
 
 Once installed, SnoutData keeps itself up to date automatically.
-
-> **Platforms:** Windows 10/11, macOS (Apple Silicon), and Linux (Ubuntu/Debian). Built on
-> Electron.
-
-<br />
 
 ## Screenshots
 
