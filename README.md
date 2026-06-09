@@ -55,7 +55,7 @@ we're proud to be part of; the focus is all ours.
 
 ## Features
 
-### 🤖 Schema-aware AI assistant
+### Schema-aware AI assistant
 - A chat assistant that **proposes SQL grounded in your live schema**: it ranks the
   tables most relevant to your question, follows foreign-key relationships, and feeds
   the model the columns that actually matter.
@@ -68,14 +68,14 @@ we're proud to be part of; the focus is all ours.
   and pagination.
 - Stop a streaming reply mid-flight and keep the partial answer; start a new chat anytime.
 
-### ✍️ A real SQL editor
+### A real SQL editor
 - **Multi-tab editing** powered by the Monaco editor with **schema-aware completion and
   hover** (tables, columns, and relationships, served by a dedicated language server).
 - **Open and save `.sql` files** with familiar shortcuts (Ctrl+N/O/S/W, Ctrl+Enter to run).
 - A **command palette** (Ctrl+Shift+P) for fast, keyboard-first navigation.
 - SQL formatting built in.
 
-### 🗂️ Connections & schema explorer
+### Connections & schema explorer
 - Manage multiple connections across a growing range of **SQL databases**.
 - A tree explorer drills from **connections → databases → tables → columns**.
 - **Production connections are flagged**, with a destructive-statement guardrail that
@@ -84,25 +84,25 @@ we're proud to be part of; the focus is all ours.
 - A **live schema index** keeps completion and the AI assistant current as your database
   changes.
 
-### 🗃️ Workspace & files
+### Workspace & files
 - Keep your `.sql` scripts in a **workspace folder on disk**: browse, create, rename,
   delete, and **search them by name and contents** from the activity bar. Saving an
   untitled tab files it straight into the workspace.
 - **Import** `.sql` scripts from your computer or from an existing DBeaver workspace.
 
-### 📊 Results & history
+### Results & history
 - Run queries against a clean, sortable **results grid**.
 - **Query history** and **saved queries** are kept across sessions, so nothing you ran
   is ever lost.
 
-### 🔐 Secure by design
+### Secure by design
 - Database passwords, SSH keys/passphrases, and API keys are encrypted with your OS
   keychain (via Electron `safeStorage`) and never written to plain config files.
 - Editor completion and hover are **fully deterministic and local**: no model is ever
   called on keystrokes, and nothing about your editing leaves the machine for those
   features.
 
-### 🎨 Polished desktop experience
+### Polished desktop experience
 - Native **light and dark themes**.
 - Resizable, collapsible panes you can lay out the way you work.
 - **In-app notifications** keep you posted on updates, long-running tasks, and connection
@@ -141,15 +141,6 @@ Once installed, SnoutData keeps itself up to date automatically.
 > **Platforms:** Windows 10/11, macOS (Apple Silicon), and Linux (Ubuntu/Debian). Built on
 > Electron.
 
-## Getting started
-
-1. **Add a connection** from the sidebar (host, port, credentials; optional SSH tunnel).
-2. **Browse the schema** in the explorer to see your tables and columns.
-3. **Open a tab and write SQL**, with completion and hover guiding you.
-4. **Run** with Ctrl+Enter and read the results in the grid.
-5. **Open the AI panel** and ask a question, the assistant answers using your schema and
-   can drop the SQL right into your editor.
-
 ## Screenshots
 
 <sub>Click any screenshot to view it full size.</sub>
@@ -176,6 +167,15 @@ Once installed, SnoutData keeps itself up to date automatically.
     </td>
   </tr>
 </table>
+
+## Getting started
+
+1. **Add a connection** from the sidebar (host, port, credentials; optional SSH tunnel).
+2. **Browse the schema** in the explorer to see your tables and columns.
+3. **Open a tab and write SQL**, with completion and hover guiding you.
+4. **Run** with Ctrl+Enter and read the results in the grid.
+5. **Open the AI panel** and ask a question, the assistant answers using your schema and
+   can drop the SQL right into your editor.
 
 ---
 
