@@ -10,7 +10,7 @@ A fast, native SQL workbench with a built-in AI assistant that understands your 
 Connect, explore, write, and run, with smart completion and an assistant that proposes
 SQL grounded in your actual tables.
 
-[![Download](https://img.shields.io/badge/Download-v0.0.44-2f81f7?style=for-the-badge)](https://github.com/snoutdata/db/releases/latest)
+[![Download](https://img.shields.io/badge/Download-v0.0.45-2f81f7?style=for-the-badge)](https://github.com/snoutdata/db/releases/latest)
 &nbsp;
 [![Platform](https://img.shields.io/badge/Windows%20%7C%20macOS%20%7C%20Linux-blue?style=for-the-badge)](https://github.com/snoutdata/db/releases/latest)
 
