@@ -20,11 +20,13 @@ SQL grounded in your actual tables.
 
 ## What it is
 
-SnoutData is a desktop SQL IDE for working with your relational databases. It pairs
-a schema-aware editor with an AI assistant that reads your database structure, so the
-help you get is specific to *your* data, not generic boilerplate. Manage your
-connections, browse the schema, write queries with real completion and hover docs, run
-them against a live grid, and ask the assistant when you get stuck.
+SnoutData is a desktop SQL IDE for working with your databases: relational, document
+(**MongoDB**), and vector (**Pinecone**), all in one window. Explore them with the same
+schema-aware editor and query them with the same SQL you already know. It pairs that
+editor with an AI assistant that reads your database structure, so the help you get is
+specific to *your* data, not generic boilerplate. Manage your connections, browse the
+schema, write queries with real completion and hover docs, run them against a live grid,
+and ask the assistant when you get stuck.
 
 ## Familiar feel, built from scratch
 
@@ -75,8 +77,21 @@ we're proud to be part of; the focus is all ours.
 - A **command palette** (Ctrl+Shift+P) for fast, keyboard-first navigation.
 - SQL formatting built in.
 
+### Beyond SQL: documents and vectors
+- **MongoDB**: browse collections like tables and query them with the **same SQL you
+  already know** (translated to aggregation pipelines for you), or drop into a **native
+  pipeline editor** for full power. Edit documents right in the grid, create and drop
+  collections and indexes, and let the AI assistant propose pipelines grounded in your
+  collections.
+- **Pinecone**: connect a vector project and explore its indexes alongside everything
+  else, querying them with SQL like the rest of your data.
+- One window, many databases: **SQL is the common language** across all of them, so
+  moving between a relational table, a Mongo collection, and a Pinecone index feels the
+  same.
+
 ### Connections & schema explorer
-- Manage multiple connections across a growing range of **SQL databases**.
+- Manage multiple connections across a growing range of databases: **relational (SQL),
+  document (MongoDB), and vector (Pinecone)**.
 - A tree explorer drills from **connections → databases → tables → columns**.
 - **Production connections are flagged**, with a destructive-statement guardrail that
   warns before you run something dangerous against prod.
