@@ -10,9 +10,9 @@ A fast, native SQL workbench with a built-in AI assistant that understands your 
 Connect, explore, write, and run, with smart completion and an assistant that proposes
 SQL grounded in your actual tables.
 
-[![Download](https://img.shields.io/github/v/release/snoutdata/db?style=for-the-badge&label=Download&color=1c1c1c)](https://github.com/snoutdata/db/releases/latest)
+[![Download](https://img.shields.io/github/v/release/snoutdata/app?style=for-the-badge&label=Download&color=1c1c1c)](https://github.com/snoutdata/app/releases/latest)
 &nbsp;
-[![Platform](https://img.shields.io/badge/Windows%20%7C%20macOS%20%7C%20Linux-1c1c1c?style=for-the-badge)](https://github.com/snoutdata/db/releases/latest)
+[![Platform](https://img.shields.io/badge/Windows%20%7C%20macOS%20%7C%20Linux-1c1c1c?style=for-the-badge)](https://github.com/snoutdata/app/releases/latest)
 
 </div>
 
@@ -127,7 +127,7 @@ we're proud to be part of; the focus is all ours.
 
 ## Download & install
 
-Head to the [**latest release**](https://github.com/snoutdata/db/releases/latest) and
+Head to the [**latest release**](https://github.com/snoutdata/app/releases/latest) and
 grab the build for your platform.
 
 **Platforms:** Windows 10/11, macOS (Apple Silicon), and Linux (Ubuntu/Debian). Built on
@@ -163,21 +163,21 @@ Once installed, SnoutData keeps itself up to date automatically.
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://raw.githubusercontent.com/snoutdata/db/main/assets/screenshots/agent-build-report.png"><img src="https://raw.githubusercontent.com/snoutdata/db/main/assets/screenshots/agent-build-report.png" alt="The AI assistant building a multi-table sales report grounded in the real schema" width="100%" /></a>
+      <a href="https://raw.githubusercontent.com/snoutdata/app/main/assets/screenshots/agent-build-report.png"><img src="https://raw.githubusercontent.com/snoutdata/app/main/assets/screenshots/agent-build-report.png" alt="The AI assistant building a multi-table sales report grounded in the real schema" width="100%" /></a>
       <p><b>Ask in plain English, get schema-grounded SQL</b><br/><sub>The assistant reads your live tables, columns, and foreign keys, writes runnable SQL, and explains it. One click drops it into the editor.</sub></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://raw.githubusercontent.com/snoutdata/db/main/assets/screenshots/agent-query-fixing.png"><img src="https://raw.githubusercontent.com/snoutdata/db/main/assets/screenshots/agent-query-fixing.png" alt="The AI assistant diagnosing and correcting a failed query" width="100%" /></a>
+      <a href="https://raw.githubusercontent.com/snoutdata/app/main/assets/screenshots/agent-query-fixing.png"><img src="https://raw.githubusercontent.com/snoutdata/app/main/assets/screenshots/agent-query-fixing.png" alt="The AI assistant diagnosing and correcting a failed query" width="100%" /></a>
       <p><b>Paste a failing query, get the fix</b><br/><sub>Hand it the error and the SQL that produced it. It diagnoses the cause against your real schema and returns corrected SQL.</sub></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://raw.githubusercontent.com/snoutdata/db/main/assets/screenshots/table-telemetry.png"><img src="https://raw.githubusercontent.com/snoutdata/db/main/assets/screenshots/table-telemetry.png" alt="The per-table telemetry view showing storage, schema, and recent queries" width="100%" /></a>
+      <a href="https://raw.githubusercontent.com/snoutdata/app/main/assets/screenshots/table-telemetry.png"><img src="https://raw.githubusercontent.com/snoutdata/app/main/assets/screenshots/table-telemetry.png" alt="The per-table telemetry view showing storage, schema, and recent queries" width="100%" /></a>
       <p><b>Know your tables at a glance</b><br/><sub>Per-table storage and index sizes, schema facts (keys, indexes, engine), and the queries that recently touched it.</sub></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://raw.githubusercontent.com/snoutdata/db/main/assets/screenshots/themes.png"><img src="https://raw.githubusercontent.com/snoutdata/db/main/assets/screenshots/themes.png" alt="SnoutData in its light theme" width="100%" /></a>
+      <a href="https://raw.githubusercontent.com/snoutdata/app/main/assets/screenshots/themes.png"><img src="https://raw.githubusercontent.com/snoutdata/app/main/assets/screenshots/themes.png" alt="SnoutData in its light theme" width="100%" /></a>
       <p><b>Light and dark</b><br/><sub>A polished light theme and a deep dark theme, both tuned for long sessions staring at results.</sub></p>
     </td>
   </tr>
@@ -195,5 +195,5 @@ Once installed, SnoutData keeps itself up to date automatically.
 ---
 
 <div align="center">
-<sub>SnoutData · An AI-driven SQL IDE · <a href="https://github.com/snoutdata/db/releases">Releases</a></sub>
+<sub>SnoutData · An AI-driven SQL IDE · <a href="https://github.com/snoutdata/app/releases">Releases</a></sub>
 </div>
